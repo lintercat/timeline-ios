@@ -19,6 +19,8 @@
 		516CB73A21055D3A0021A28B /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516CB73921055D3A0021A28B /* Credential.swift */; };
 		516CB73D2105608F0021A28B /* Tracker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516CB73C2105608F0021A28B /* Tracker.storyboard */; };
 		516CB7402105617A0021A28B /* Timeline.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516CB73F2105617A0021A28B /* Timeline.storyboard */; };
+		516CB74221056BDB0021A28B /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516CB74121056BDB0021A28B /* TrackerViewController.swift */; };
+		516CB74421056DE00021A28B /* TrackerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516CB74321056DE00021A28B /* TrackerContract.swift */; };
 		51AA77FF2105298C00675ABF /* CellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA77E72105298C00675ABF /* CellDecorator.swift */; };
 		51AA78002105298C00675ABF /* AppCellDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA77E82105298C00675ABF /* AppCellDecorator.swift */; };
 		51AA78012105298C00675ABF /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA77EA2105298C00675ABF /* UIViewController+Navigation.swift */; };
@@ -57,6 +59,8 @@
 		516CB73921055D3A0021A28B /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
 		516CB73C2105608F0021A28B /* Tracker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tracker.storyboard; sourceTree = "<group>"; };
 		516CB73F2105617A0021A28B /* Timeline.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timeline.storyboard; sourceTree = "<group>"; };
+		516CB74121056BDB0021A28B /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		516CB74321056DE00021A28B /* TrackerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerContract.swift; sourceTree = "<group>"; };
 		51AA77E72105298C00675ABF /* CellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDecorator.swift; sourceTree = "<group>"; };
 		51AA77E82105298C00675ABF /* AppCellDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCellDecorator.swift; sourceTree = "<group>"; };
 		51AA77EA2105298C00675ABF /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				516CB73C2105608F0021A28B /* Tracker.storyboard */,
+				516CB74121056BDB0021A28B /* TrackerViewController.swift */,
+				516CB74321056DE00021A28B /* TrackerContract.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -452,6 +458,7 @@
 				516CB72721054FFC0021A28B /* LoginContract.swift in Sources */,
 				516CB735210555960021A28B /* LocalKeys.swift in Sources */,
 				51AA78052105298C00675ABF /* UIColor+Additions.swift in Sources */,
+				516CB74421056DE00021A28B /* TrackerContract.swift in Sources */,
 				51AA780A2105298C00675ABF /* BaseViewControllerIndicator.swift in Sources */,
 				51AA78042105298C00675ABF /* UIView+Animations.swift in Sources */,
 				51AA78102105298C00675ABF /* DataSource.swift in Sources */,
@@ -460,6 +467,7 @@
 				51AA78092105298C00675ABF /* BaseViewController.swift in Sources */,
 				516CB72A210550E20021A28B /* SessionManagerProtocol.swift in Sources */,
 				516CB7332105556A0021A28B /* SessionManager.swift in Sources */,
+				516CB74221056BDB0021A28B /* TrackerViewController.swift in Sources */,
 				51D95F012105075600F5AB28 /* AppDelegate.swift in Sources */,
 				51AA780E2105298C00675ABF /* AppDataSource.swift in Sources */,
 				51AA78032105298C00675ABF /* TimeInterval+Ext.swift in Sources */,
